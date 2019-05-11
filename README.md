@@ -12,22 +12,19 @@ A [relatively] simple parody on "Worms" game made as an open source school proje
 - [Features](#features)
 - [Thanks](#thanks)
 
-<br>
+
 ### Overview
 **Warlife** was created on pure enthusiasm at school in far 2001. The idea was to make a [relatively] simple yet demonstrative program for the graduation examination. Although initially it was intended to be a regular app just to pass the exam in informatics, it turned into a couple of weeks of real fun almost immediately after the project had started.
 
-<br>
 ### Reminiscences
 The game uses the idea of the awesome "Worms 2" game made by Team17 Software®, but in a, khm..., *quite* docked representation ت .
 
 Also, during the cool intro in the beginning, a tune from "Jesus Christ Superstar" rock opera by Andrew Lloyd Webber and Tim Rice is used ("Damned For All Time" coda to be specific). Well, I had to use something dramatic enough.
 
-<br>
 ### Original readme
 The original instructions file, made for Windows 98 and QBASIC 1.0 in mind, contained the following (translated from Russian):
 > Game "installation". Copy *Warlife* game folder to your hard drive (don't launch  it from A:\ !!!). Bind all `.bas` files with `qbasic.exe` app that resides in the same folder. Launch `setlnk.bas` (it will copy shortcuts to the Main menu and Desktop). Launch `warlife.bas`.
 
-<br>
 ### Launching
 The best way to launch the game is to install Windows 98, open main file named `warlife.bas` and run the project code under QBASIC 1.0 ت . However, it's not too convenient nowadays, so I propose to use QBASIC 4.5, e.g. [QB64](http://www.qb64.net/).
 
@@ -43,7 +40,6 @@ Note: in case you are facing problems with launching QB64 and see errors that sa
 
 ```find . -name '*.command' -exec perl -pi -e 's/\r\n|\n|\r/\n/g' {} \;```
 
-<br>
 ### Issues
 Unfortunately, at the moment (Jan 13, 2017) the code does not perform correctly in its original shape and needs upgrade and fixes to functionate properly under QB64 (but, to repeat, *it should run just fine under QBASIC 1.0 and Win98*). In fact the `Real initial commit` (which is the second commit in this repo) will only let you see crumpled intro, main menu and the game level which acts extremely buggy, while other sections in the Main menu will lead to termination. 
 
@@ -51,7 +47,6 @@ Besides, the code contains quite a bit of bugs (even if they're not visible to e
 
 Well, maybe I'll have time to fix all those, maybe not, but **enthusiasts are highly welcome** ت ! Diving into retro is full of nostalgy, floppy phantoms and dangling pupils.
 
-<br>
 ### Features
 The following is the translation of the original Reference Manual extracts. The word 'Wurm' references the player's character (the worm).
 
@@ -196,6 +191,5 @@ Fills closed region with bounding color `c1`, containing `{x, y}` point, with `c
 
 Vertical wave (sine curve).
 
-<br>
 ### Thanks
 Special thanks to Vera Mikhailovna Miloserdova, my informatics' tutor, who actually arouse the zest for programming which then led me through many interesting (well, sometimes not, but still quite educational ت) experiences and techs. Special thanks to Anton Kryukov, being the major and indefatigable beta-tester. Special thanks to all those tool and app makers that inspired me. And absolutely special thanks to my parents who made it all happen ت !
